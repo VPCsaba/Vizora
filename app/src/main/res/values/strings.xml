@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Vizora</string>
+    <string name="vizora_bejelento">Vízóra bejelentő</string>
+    <string name="bejelentkezes">Bejelentkezés</string>
+    <string name="regisztralas">Regisztrálás</string>
+    <string name="informaciosszoveg">Az adatok feltöltése érdekében kérem jelentkezzen be!</string>
+    <string name="regisztracio">Regisztráció</string>
+    <string name="e_mail_cim">E-mail cím</string>
+    <string name="jelszo">Jelszó</string>
+</resources>
