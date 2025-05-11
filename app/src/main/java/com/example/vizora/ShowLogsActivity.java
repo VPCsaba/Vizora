@@ -199,7 +199,7 @@ public class ShowLogsActivity extends AppCompatActivity implements WaterClockLog
             Log.w(TAG, "Attempted to click on null item or item with null ID.");
             return;
         }
-        // Ide írhatod a MODOSÍTÁSI vagy RÉSZLETEK MEGJELENÍTÉSE LOGIKÁT
+        
         Log.d(TAG, "Item clicked with ID: " + item.getId());
 
 
