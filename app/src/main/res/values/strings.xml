@@ -7,4 +7,17 @@
     <string name="regisztracio">Regisztráció</string>
     <string name="e_mail_cim">E-mail cím</string>
     <string name="jelszo">Jelszó</string>
+    <string name="icon">Icon</string>
+    <string name="bejelentes">Bejelentés</string>
+    <string name="eddigi">Eddigi bejelentések</string>
+    <string name="bej">Bejelentés</string>
+    <string name="szeraz">Szerződés azonosító (ESHFSJKAW123)</string>
+    <string name="gyaraz">Vízóra gyártási azonosítója (A6WDSDG67)</string>
+    <string name="kobm">2 (köbméter)</string>
+    <string name="camtitle">Fénykép készítése</string>
+    <string name="cam">Kamera megnyitása</string>
+    <string name="img">Képed</string>
+    <string name="all">Minden</string>
+    <string name="top5">5 legtöbb</string>
+    <string name="revtop5">5 legkevesebb</string>
 </resources>

@@ -52,6 +52,7 @@ public class register extends AppCompatActivity {
                     }
                     else
                     {
+                        email.setError("Az email már foglalt!");
                         //sikertelen
                     }
                 }

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+<!-- TextView az Email címnek -->
+<TextView
+    android:id="@+id/textViewItemEmail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:textColor="@android:color/black"
+tools:text="felhasznalo@pelda.hu" />
+
+<!-- TextView a Szerződésszámnak -->
+        <TextView
+            android:id="@+id/textViewItemContractNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="#757575"
+            tools:text="Szerződésszám: 123456" />
+
+<!-- TextView a Gyártási azonosítónak -->
+        <TextView
+            android:id="@+id/textViewItemWaterClockId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="#757575"
+            tools:text="Gyári azonosító: ABC-XYZ" />
+
+<!-- TextView a Mért értéknek -->
+<TextView
+    android:id="@+id/textViewItemWaterCubic"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:textSize="18sp"
+    android:textStyle="bold"/>
+
+<LinearLayout
+    style="?android:attr/buttonBarStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="end"
+    android:layout_marginTop="8dp">
+
+    <!-- Delete Button -->
+
+    <Button
+        android:id="@+id/buttonItemDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:text="Tölés" />
+
+    <Button
+   android:id="@+id/buttonItemModify"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:layout_margin="4dp"
+   android:text="Módosítás" android:backgroundTint="#1976D2" android:textColor="#FFFFFF"
+   style="@style/Widget.MaterialComponents.Button.TextButton"
+   />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
